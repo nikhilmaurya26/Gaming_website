@@ -1,0 +1,24 @@
+.button{
+    font-size: 11px;
+    padding: 8px 20px;
+    transform: skew(-20deg);
+    display: inline-block;
+    display: inline-table;
+    background-color: #993CD2;
+    color: white;
+    border: none;
+
+    &:hover{
+        background-color: white;
+        color: #AF6CD8;
+        cursor: pointer;
+        
+    }
+    span{
+        transform: skew(20deg);
+         display: inline-block;
+         padding-top: 3px;
+         letter-spacing: 0.06rem;
+    }
+
+}
