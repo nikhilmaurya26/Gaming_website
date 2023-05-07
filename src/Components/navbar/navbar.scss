@@ -124,7 +124,7 @@
         }
 
         @include mobile{
-            height: 100vh;
+            height: 34vh;
             width: 139%;
         }
 
@@ -153,6 +153,9 @@
                 @include tablet{
                     flex: 1;
                 }
+                @include mobile{
+                    margin-right: 20%;
+                }
     
                 h1{
                     font-weight: 700;
@@ -169,7 +172,7 @@
                         font-size: 30px;
                     }
                     @include mobile{
-                        margin-left: 20px;
+                        margin-left: 15px;
                     }
                     
                 }
